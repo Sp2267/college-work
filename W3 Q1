@@ -24,7 +24,7 @@ cout<<"area is =";
 int s = (a+b+c)/2;
 
 int a1 = s*(s-a)*(s-b)*(s-c);
-cout<< a1 <<endl;
+cout<< sqrt(a1) <<endl;
 }
 
 int main()  {
