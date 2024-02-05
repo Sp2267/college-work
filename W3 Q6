@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+class area
+{
+public:
+    int l;
+    int b;
+
+    void setdim() {
+    cin>>l;
+    cin>>b;
+    }
+
+    void getarea() {
+
+    cout<<l*b;
+    }
+
+
+
+};
+
+
+int main()
+{
+area r1;
+
+r1.setdim();
+r1.getarea();
+
+
+}
