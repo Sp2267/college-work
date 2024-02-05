@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+class First
+{
+public:
+    string student_name;
+
+    void printname()
+    {
+        cout<<student_name;
+    }
+
+}obj1;
+
+
+int main()
+{
+
+    cin>>student_name;
+
+    obj1.printname();
+
+}
