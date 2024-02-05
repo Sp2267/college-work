@@ -1,0 +1,42 @@
+# include<iostream>
+# include<string>
+# include <cmath>
+
+using namespace std;
+
+class triangle{
+public:
+int side1;
+int side2;
+int side3;
+
+};
+
+int perimetre(int x,int y,int z){
+
+cout<<"Perimetre is = ";
+cout<<x+y+z<<endl;
+
+}
+float area(int a,int b,int c) {
+
+cout<<"area is =";
+int s = (a+b+c)/2;
+
+int a1 = s*(s-a)*(s-b)*(s-c);
+cout<< a1 <<endl;
+}
+
+int main()  {
+triangle t1;
+t1.side1 = 3;
+t1.side2 = 4;
+t1.side3 = 5;
+
+perimetre(t1.side1,t1.side2,t1.side3);
+area(t1.side1,t1.side2,t1.side3);
+
+
+}
+
+
