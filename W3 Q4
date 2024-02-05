@@ -17,7 +17,7 @@ public:
 int main()
 {
 
-    cin>>student_name;
+    cin>>obj1.student_name;
 
     obj1.printname();
 
